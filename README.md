@@ -1,38 +1,26 @@
-#  Windays Conference – Demo Config Files - Docker Sarm
+# 🌀 Windays PHP App – Demo Project
 
-This repository contains **configuration files** used for the **Windays Conference demo**.  
-These files were created to demonstrate setup, integration, and deployment workflows presented during the event.
+This repository contains the demo PHP web application showcased during the **Microsoft Windays Conference**.  
+It was developed as a part of the lecture presentation to demonstrate PHP application structure, configuration and deployment practices.
 
----
+## 🎬 Demo Video
 
-## Demo Video
+Watch the full demonstration here:  
+👉 [https://youtu.be/7DQbD23XY2M](https://youtu.be/7DQbD23XY2M)
 
-Watch the full demo on YouTube:  
-[https://youtu.be/7DQbD23XY2M](https://youtu.be/7DQbD23XY2M)
+## 🧱 Project Overview
 
----
+| Folder/File       | Description                                                      |
+|-------------------|------------------------------------------------------------------|
+| `index.php`       | Entry point for the PHP web app                                  |
+| `tests/`          | Unit or integration tests (if present)                           |
+| `phpunit.xml`     | Configuration for the PHPUnit testing framework                   |
+| `.gitignore`      | List of files/directories ignored by Git                          |
+| `README.md`       | This documentation file                                           |
 
-## Repository Overview
+## ⚙️ Setup Instructions
 
-| Folder/File | Description |
-|--------------|-------------|
-| `configs/` | Example configuration files used during the Windays presentation |
-| `docker-compose.yml` | Sample container setup (if applicable) |
-| `.env.example` | Template for environment variables |
-| `README.md` | Documentation for this repository |
-
----
-
-## Disclaimer
-
-> This project is for **demonstration purposes only**.  
-> The configurations provided here should **not** be used in production without proper review and customization.
-
----
-
-## 🧩 How to Use
-
-1. Clone the repository:
+1. **Clone the repository**  
    ```bash
-   git clone [https://github.com/ivansostarko>/windays-docker-swarm.git](https://github.com/ivansostarko/windays-docker-swarm)
-   cd windays-docker-swarm
+   git clone https://github.com/ivansostarko/windays-php-app.git
+   cd windays-php-app
